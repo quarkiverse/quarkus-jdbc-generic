@@ -1,0 +1,11 @@
+name: quarkus-jdbc-generic
+title: Quarkus JDBC Generic
+version: dev
+prerelease: true
+
+asciidoc:
+  attributes:
+    project-version: 999-SNAPSHOT
+
+nav:
+  - modules/ROOT/nav.adoc

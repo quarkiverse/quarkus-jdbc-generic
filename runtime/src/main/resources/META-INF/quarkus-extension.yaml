@@ -1,0 +1,15 @@
+---
+artifact: ${project.groupId}:${project.artifactId}:${project.version}
+name: "JDBC Driver - Generic (runtime resolved)"
+description: "Connect to any database via a JDBC driver resolved with reflection at runtime"
+metadata:
+  keywords:
+  - "jdbc-generic"
+  - "jdbc"
+  - "driver"
+  - "reflection"
+  - "datasource"
+  guide: "https://github.com/rmannibucau/quarkus-jdbc-generic"
+  categories:
+  - "data"
+  status: "preview"

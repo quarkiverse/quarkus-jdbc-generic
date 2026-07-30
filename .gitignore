@@ -1,0 +1,21 @@
+# Maven
+target/
+pom.xml.versionsBackup
+release.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.factorypath
+*.code-workspace
+
+# Quarkus
+.quarkus/
+
+# Misc
+*.log
+.DS_Store
