@@ -22,6 +22,12 @@
             <artifactId>quarkus-jdbc-generic</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <!-- both drivers are in the classpath: the build-time configuration selects MySQL,
+             the environment repoints the datasource to H2 at runtime -->
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+        </dependency>
         <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
@@ -52,6 +58,18 @@
                         </goals>
                     </execution>
                 </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <configuration>
+                    <environmentVariables>
+                        <!-- runtime override of the MySQL driver and URL configured in application.properties,
+                             the way a container image is repointed to another database per environment -->
+                        <QUARKUS_DATASOURCE_JDBC_GENERIC_DRIVER>org.h2.Driver</QUARKUS_DATASOURCE_JDBC_GENERIC_DRIVER>
+                        <QUARKUS_DATASOURCE_JDBC_URL>jdbc:h2:mem:generic-it</QUARKUS_DATASOURCE_JDBC_URL>
+                    </environmentVariables>
+                </configuration>
             </plugin>
         </plugins>
     </build>
