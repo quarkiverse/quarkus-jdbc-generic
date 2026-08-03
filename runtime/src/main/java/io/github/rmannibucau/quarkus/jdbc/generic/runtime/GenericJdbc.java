@@ -1,4 +1,4 @@
-package io.github.rmannibucau.quarkus.jdbc.generic.runtime;
+package io.quarkiverse.jdbc.jdbc.generic.runtime;
 
 /**
  * Constants for the generic, runtime-resolved JDBC driver support.

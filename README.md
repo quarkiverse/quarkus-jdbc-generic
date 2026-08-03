@@ -20,7 +20,7 @@ Typical use cases (coming from the Apache Polaris needs):
 
 ```xml
 <dependency>
-    <groupId>io.github.rmannibucau</groupId>
+    <groupId>io.quarkiverse.jdbc</groupId>
     <artifactId>quarkus-jdbc-generic</artifactId>
     <version>${version}</version>
 </dependency>

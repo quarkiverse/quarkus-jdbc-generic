@@ -1,13 +1,13 @@
-package io.github.rmannibucau.quarkus.jdbc.generic.deployment;
+package io.quarkiverse.jdbc.jdbc.generic.deployment;
 
 import org.eclipse.microprofile.config.ConfigProvider;
 
-import io.github.rmannibucau.quarkus.jdbc.generic.runtime.GenericJdbc;
-import io.github.rmannibucau.quarkus.jdbc.generic.runtime.GenericJdbcConnectionConfigurer;
-import io.github.rmannibucau.quarkus.jdbc.generic.runtime.GenericJdbcDriverPlaceholder;
-import io.github.rmannibucau.quarkus.jdbc.generic.runtime.GenericJdbcDriverResolver;
-import io.github.rmannibucau.quarkus.jdbc.generic.runtime.GenericJdbcRecorder;
-import io.github.rmannibucau.quarkus.jdbc.generic.runtime.GenericJdbcXADataSourcePlaceholder;
+import io.quarkiverse.jdbc.jdbc.generic.runtime.GenericJdbc;
+import io.quarkiverse.jdbc.jdbc.generic.runtime.GenericJdbcConnectionConfigurer;
+import io.quarkiverse.jdbc.jdbc.generic.runtime.GenericJdbcDriverPlaceholder;
+import io.quarkiverse.jdbc.jdbc.generic.runtime.GenericJdbcDriverResolver;
+import io.quarkiverse.jdbc.jdbc.generic.runtime.GenericJdbcRecorder;
+import io.quarkiverse.jdbc.jdbc.generic.runtime.GenericJdbcXADataSourcePlaceholder;
 import io.quarkus.agroal.spi.JdbcDriverBuildItem;
 import io.quarkus.arc.deployment.AdditionalBeanBuildItem;
 import io.quarkus.arc.deployment.SyntheticBeansRuntimeInitBuildItem;

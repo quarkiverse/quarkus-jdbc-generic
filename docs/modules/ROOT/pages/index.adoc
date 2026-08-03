@@ -21,7 +21,7 @@ Add the extension:
 [source,xml,subs=attributes+]
 ----
 <dependency>
-    <groupId>io.github.rmannibucau</groupId>
+    <groupId>io.quarkiverse.jdbc</groupId>
     <artifactId>quarkus-jdbc-generic</artifactId>
     <version>{project-version}</version>
 </dependency>

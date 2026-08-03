@@ -1,4 +1,4 @@
-package io.github.rmannibucau.quarkus.jdbc.generic.test;
+package io.quarkiverse.jdbc.jdbc.generic.test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

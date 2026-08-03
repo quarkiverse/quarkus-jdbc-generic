@@ -1,4 +1,4 @@
-package io.github.rmannibucau.quarkus.jdbc.generic.runtime;
+package io.quarkiverse.jdbc.jdbc.generic.runtime;
 
 import io.agroal.api.configuration.supplier.AgroalDataSourceConfigurationSupplier;
 import io.quarkus.agroal.runtime.AgroalConnectionConfigurer;

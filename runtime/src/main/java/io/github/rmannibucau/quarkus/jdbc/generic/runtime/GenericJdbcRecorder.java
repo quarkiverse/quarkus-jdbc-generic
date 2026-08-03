@@ -1,4 +1,4 @@
-package io.github.rmannibucau.quarkus.jdbc.generic.runtime;
+package io.quarkiverse.jdbc.jdbc.generic.runtime;
 
 import io.quarkus.arc.Arc;
 import io.quarkus.runtime.annotations.Recorder;

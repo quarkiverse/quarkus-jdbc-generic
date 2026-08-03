@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>io.github.rmannibucau</groupId>
+        <groupId>io.quarkiverse.jdbc</groupId>
         <artifactId>quarkus-jdbc-generic-parent</artifactId>
         <version>999-SNAPSHOT</version>
     </parent>
@@ -29,7 +29,6 @@
             <plugin>
                 <groupId>io.quarkus</groupId>
                 <artifactId>quarkus-extension-maven-plugin</artifactId>
-                <version>${quarkus.version}</version>
                 <executions>
                     <execution>
                         <phase>compile</phase>
@@ -39,7 +38,7 @@
                         <configuration>
                             <deployment>${project.groupId}:${project.artifactId}-deployment:${project.version}</deployment>
                             <capabilities>
-                                <provides>io.github.rmannibucau.quarkus.jdbc.generic</provides>
+                                <provides>io.quarkiverse.jdbc.jdbc.generic</provides>
                             </capabilities>
                         </configuration>
                     </execution>

@@ -1,1 +1,1 @@
-io.github.rmannibucau.quarkus.jdbc.generic.runtime.GenericJdbcResolvingDriver
+io.quarkiverse.jdbc.jdbc.generic.runtime.GenericJdbcResolvingDriver
