@@ -1,0 +1,4 @@
+release:
+  current-version: "5.4.5"
+  next-version: "999-SNAPSHOT"
+
